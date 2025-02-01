@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Register() {  // Capitalized component name
+export default function Register() {  
 
     const [userDetails, setUserDetails] = useState({
         name: "",
